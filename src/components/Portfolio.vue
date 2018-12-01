@@ -173,7 +173,7 @@
             <div class="card-image">
                 <img src="https://rusmania.com/perch/resources/kievsky-railway-station.jpg" class="cardImg">
                 <span class="card-title" id="fontDark">Swazy Express Train Station </span>
-                <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://jaredtspears.github.io/GifTastic/" target="blank"><i class="fab fa-github indigo"></i></a>
+                <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://jaredtspears.github.io/Train_Schedule_App/" target="blank"><i class="fab fa-github indigo"></i></a>
             </div>
             <div class="card-content" id="font">
                 <p class="t">Swazy Express Train Station App stores user train data in a database and displays in real time the stored train data for users to interact with scheduling their next trip - no login required!
@@ -204,7 +204,7 @@
             <div class="card-image">
                 <img src="../../public/recipease.gif" class="cardImg">
                 <span class="card-title" id="fontDark">RecipEase </span>
-                <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://jaredtspears.github.io/unit-4-game/" target="blank"><i class="fab fa-github indigo"></i></a>
+                <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://someplanner.herokuapp.com/" target="blank"><i class="fab fa-github indigo"></i></a>
             </div>
             <div class="card-content" id="font">
                 <p class="t">RecipEase: This app sorts and organizes recipes for users.
