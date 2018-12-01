@@ -3,16 +3,17 @@
   <div class="portfolioPage">
     <nav class="nav-wrapper indigo">
     <div class="container">
-     <a href="#" class="logo" id="logoSize">Portefeuille Numéro Trois</a>
+        <!-- attempting to install bounce.js to this logo to have it slide in -->
+     <a class="logo" id="logoSize">Portefeuille Numéro Trois</a>
       <ul class="right">
-        <li><a href="#" id="font">About</a></li>
-        <li><a href="#" id="font">Portfolio</a></li>
-        <li> 
-            <!-- added anchor for quick jump to section for mobile -->
-            <a href="#anchor1" class="item scrollLink" id="autoscroll">
-              Connect 
-            </a>
-        </li>
+       <!-- trying to have auto scroll with the portfolio selection  -->
+        <li><a href="#anchor1" class="item scrollLink" id="autoscroll">Portfolio Selection</a></li>
+        <li><a href="https://github.com/jaredtspears" id="font" target="blank">Github</a></li>
+            <!-- connection will be used with PureChat until I have time to work with
+            NodeMailer's npm  -->
+                <!-- <a href="#anchor1" class="item scrollLink" id="autoscroll">
+                Connect 
+                </a> -->
       </ul>
     </div>
     <!-- <h5 class="vertical align">The Man, The Myth, Your Future Design Legend</h5> -->
@@ -86,6 +87,8 @@
     </div>
 
     <!-- area for repo displays -->
+ <div class="section grey">   
+    <h1 id="fontDark">Portfolio Selection</h1>
 <div class="row">
   <!-- repo1 -->
   <div class="col s12 m6">
@@ -224,6 +227,7 @@
         </div>
     </div>
 </div>
+ </div>
  <br> 
 
     <!-- footer -->
@@ -247,7 +251,6 @@
         <div class="footer-copyright">
             <div class="container" id="font">
                 A Ha1f_Deaf Design
-                <a class="grey-text text-lighten-4 right" href="#!" id="font">More Links</a>
             </div>
         </div>
     </footer>
@@ -261,6 +264,8 @@ export default {
 //  no props added for this app, may in the future
   }
 }
+
+
 </script>
 
 }
@@ -278,7 +283,7 @@ export default {
   font-size: 1.2em;
 }
 #fontDark{
-  color:indigo;
+  color:#3f51b5 ;
    font-family: 'NTR', sans-serif;
 }
 
