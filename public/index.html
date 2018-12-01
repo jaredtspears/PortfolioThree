@@ -18,8 +18,26 @@
       <strong>We're sorry but portfolio3 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-  
-    <!-- jquery -->
+  <!-- not sure why this autoscroll is not working it worked in my other portfolio app 
+  need to debug still  -->
+    <!-- <script>   
+    
+      (document).ready(function){
+      $("a.scrollLink").click(function(event){
+        event.preventDefault();
+        $("html.body").animate({scrollTop: $($(this).
+          attr("href")).offset().top}, 500);
+      })
+    }</script> -->
+ 
+<!-- Was going to try the npm for nodeMailer but time did not permit so I went with pureChat-->
+  <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () 
+  { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); 
+  script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; 
+  document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) 
+  { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+     var w = new PCWidget({c: 'eb09532c-b63a-4977-b9c5-90b62cc20d06', f: true }); done = true; } }; })();</script>    
+     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
