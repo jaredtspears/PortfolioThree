@@ -4,9 +4,9 @@ Third Portfolio
 
 Products used:
 
--using vue.js
--using materialize 
--bounce.js
+- using vue.js
+- using materialize 
+- bounce.js is still a work in progress
 
 ## Project setup
 ```
